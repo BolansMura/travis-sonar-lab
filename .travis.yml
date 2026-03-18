@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - openjdk11
+
+script:
+  - mvn clean compile
+
+git:
+  depth: false
